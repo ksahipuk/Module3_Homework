@@ -50,22 +50,13 @@ body {
     width: 968px;
 }
 
-li.active {
-    background-image: -webkit-linear-gradient(left, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
-    background-image: -o-linear-gradient(left, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
-    background-image: linear-gradient(to right, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
-    border-right: 1px solid #838383;
-    border-left: 1px solid #838383;
-    padding: 12px;
-}
-
 .nav li:hover {
     background-image: -webkit-linear-gradient(left, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
     background-image: -o-linear-gradient(left, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
     background-image: linear-gradient(to right, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
     border-right: 1px solid #838383;
     border-left: 1px solid #838383;
-
+    height: 40px;
 }
 
 .container {
@@ -99,13 +90,8 @@ li.active {
     padding-left: 40px;
 }
 
-li.active-side {
-    background-color: #f9f9f9;
-    padding-left: 40px;  
-}
-
-.active-side a {
-    color: #000;
+.side-menu a:hover{
+    color: #000; 
 }
 
 .main-content {
@@ -121,7 +107,6 @@ li.active-side {
     text-align: center;
     padding-top: 35px;
 }
-
 
 .main-content p {
     margin-top: 35px;
@@ -157,10 +142,6 @@ li.active-side {
 .bottom-menu li a {
     font-size: 14px;
     color: black;
-}
-
-.active-bottom a {
-    text-decoration: underline;
 }
 
 .bottom-menu a:hover {
